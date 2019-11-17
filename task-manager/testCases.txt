@@ -1,0 +1,45 @@
+Tests are not written . But the idea is to use mockgen and mock the layer beneath and test independent layers
+
+Test Cases: 
+
+1. 
+
+Input : A person without permison access the end point task
+Output: Not Authorized
+
+
+2.
+
+Input: A person like an Inspector whose designation role does not allow for a role creation
+Output: Not Authorized
+
+3. 
+Input: A registered user to view tasks
+Output: List of tasks can be viewed
+
+4. 
+Input : A registered user can change the status of his ticket
+Output: Success
+
+5. 
+
+Input: A user whose designation allows creation of tasks 
+Output: Success
+
+6. 
+
+Input: A ticket which depends on another non done ticket is moved to done 
+Output: Fail 
+
+7. 
+Input: A ticket which depends on another done ticket is moved to done
+Output: Success
+
+8.
+
+Input: External event calls the verify endpoint on a non completed ticket
+Output: Fails 
+
+9. 
+Input: External event calls the verify endpoint on a completed ticket
+Output: Success 
