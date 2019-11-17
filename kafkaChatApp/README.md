@@ -1,4 +1,4 @@
-# Secure Web App using Go WebSockets and Kafka
+# Secure Chat App using Go WebSockets and Kafka
 
 ## Architecture
 
