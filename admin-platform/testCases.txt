@@ -1,0 +1,31 @@
+Tests are not written . But the idea is to use mockgen and mock the layer beneath and test independent layers
+
+Test Cases: 
+
+1.
+Input: A non registered user hits the endoint user/role/designation/login
+Output: Not Authorized 
+
+2. 
+
+Input: A registered user logs in with wrong credentials 
+Output: Access Token is generated 
+
+3.
+
+Input: Non admin designation tries to register 
+Output: Not Authorized
+
+4.
+
+Input: Admin tries to register 
+Output: Success 
+
+5. 
+
+User: Aman 
+Designation: Inspector 
+Roles: View task, update task, chat 
+
+Input: opens admin and logs in 
+Output: Not Authorized
