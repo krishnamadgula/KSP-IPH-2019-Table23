@@ -1,0 +1,88 @@
+.user-shifts-form form {
+  max-width: 100%;
+}
+
+.user-shifts-form .shift-details {
+  display: flex;
+}
+
+.user-shifts-form .flex .field {
+  margin-right: 20px;
+  flex: 1;
+}
+
+.user-shifts-form .shift-details .field:first-child {
+  margin-right: 20px;
+}
+
+.user-shifts-form .form-actions.add, 
+.user-shifts-form .form-actions.edit{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  position: relative;
+}
+
+.user-shifts-form .form-actions .button {
+  min-width: 110px;
+}
+
+.user-shifts-form input[type='submit'] {
+  max-width: 110px;
+  margin-left: 10px;
+}
+
+.user-shifts-form .delete-button img{
+  margin-right: 5px;
+  color: #eb8181;
+}
+
+.user-shifts-form .delete-button span{
+  margin-top: 2px;
+}
+
+
+.editPopup.shifts-form {
+  max-width: 730px;
+}
+.user-shifts-page .dropdown-menu {
+  width: 148px;
+}
+.user-shifts-form .labelWrap {
+  flex-grow: 1;
+  justify-content: space-between;
+}
+@media screen and (max-width: 480px) {
+  .user-shifts-form .flex {
+    display: inherit;
+  }
+
+  .user-shifts-form .shift-details {
+    display: inherit;
+  }
+  .user-shifts-form .shift-details .field:first-child {
+    margin-right: 0;
+  }
+  .user-shifts-form .form-actions.add .button, .user-shifts-form .form-actions.add .primary{
+    flex: 1;
+  }
+  .user-shifts-form input[type='submit'] {
+    max-width: 100%;
+  }
+  .user-shifts-page .filters-wrapper .primary, .user-shifts-page .filters-wrapper .button{
+    min-width: 48%;
+  }
+  .user-shifts-page .filters-wrapper {
+    padding: 10px 15px 15px;
+  }
+  .user-shifts-form .delete-button {
+    bottom: -50px;
+    left: 40%;
+  }
+  .user-shifts-form .form-actions.edit {
+    margin-bottom: 50px;
+  }
+  .user-shifts-form .form-actions .button {
+    min-width: 48%;
+  }
+}

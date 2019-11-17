@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="30"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-6">
+            <g id="Rectangle" opacity="0">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="29" height="29"></rect>
+            </g>
+            <g id="Group-19" transform="translate(1.000000, 5.000000)">
+                <g id="group-16" transform="translate(12.103448, 10.241379)" stroke="#80959D">
+                    <polyline id="Shape" points="1.68447414 8.31306724 0.299560345 8.31306724 0.299560345 0.124665517 8.52199138 0.124665517 8.52199138 8.34630517 5.6255431 8.34630517"></polyline>
+                    <circle id="Oval" cx="3.29018276" cy="8.34630517" r="1.49491552"></circle>
+                    <circle id="Oval" cx="11.5118224" cy="8.34630517" r="1.49491552"></circle>
+                    <polyline id="Shape" points="9.26905345 2.3666431 12.9529241 2.3666431 14.5008621 5.06524655 14.5008621 9.09336724 13.5171776 9.09336724"></polyline>
+                </g>
+                <path d="M18.7475924,6.57022565 C17.2698158,3.31783257 13.9928865,1.05617844 10.1877195,1.05617844 C4.99780648,1.05617844 0.790550673,5.26343425 0.790550673,10.4533473 C0.790550673,14.6307273 3.51630505,18.1714732 7.28627322,19.3940446 C8.20005589,19.6903772 9.17518648,19.8505162 10.1877195,19.8505162" id="Oval-3" stroke="#20C05C" stroke-width="2" transform="translate(9.769072, 10.453347) rotate(4.000000) translate(-9.769072, -10.453347) "></path>
+                <polyline id="Path-9" stroke="#20C05C" points="6.16088986 10.8575288 9.59732793 10.8575288 9.59732793 5.1558227"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

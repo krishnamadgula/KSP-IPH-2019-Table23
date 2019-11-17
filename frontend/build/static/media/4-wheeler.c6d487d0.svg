@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>truck</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="truck">
+            <g id="Group">
+                <rect id="Rectangle-26" x="0" y="0" width="40" height="40"></rect>
+                <g id="Artboard-5" transform="translate(3.000000, 3.000000)">
+                    <g id="Rectangle-5" opacity="0">
+                        <g id="path-1-link" fill="#D8D8D8">
+                            <rect id="path-1" x="0" y="0" width="36" height="36"></rect>
+                        </g>
+                        <rect id="Rectangle-path" stroke="#979797" stroke-width="1.25" x="0.75" y="0.75" width="34.5" height="34.5"></rect>
+                    </g>
+                    <polyline id="Path-54" stroke="#80959D" points="5.77844431 25.4347495 3 25.4347495 3 9 19.5 9 19.5 25.5 13.6887755 25.5"></polyline>
+                    <path d="M7.5,14.25 L15,14.25" id="Path-64" stroke="#80959D"></path>
+                    <path d="M12,17.25 L16.5,17.25" id="Path-66" stroke="#80959D"></path>
+                    <path d="M19.5,18.75 L31.5,18.75" id="Path-65" stroke="#80959D" stroke-width="1.25"></path>
+                    <path d="M19.2,26.8880844 L22.2,26.8880844" id="Path-61" stroke="#80959D" stroke-width="1.25"></path>
+                    <path d="M21,18.75 L31.5,18.75" id="Path-62" stroke="#80959D"></path>
+                    <circle id="Oval" stroke="#80959D" cx="9" cy="25.5" r="3"></circle>
+                    <circle id="Oval" stroke="#80959D" cx="25.5" cy="25.5" r="3"></circle>
+                    <polyline id="Path-60" stroke="#80959D" points="21 13.5 28.3926862 13.5 31.5 18.9166222 31.5 27 29.5236003 27"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

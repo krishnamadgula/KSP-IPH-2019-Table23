@@ -1,0 +1,15 @@
+.WebsiteLink .title-image {
+  display: flex;
+  justify-content: start;
+}
+.WebsiteLink .link-url {
+  font-size: 12px;
+  overflow-wrap: break-word;
+}
+.WebsiteLink {
+  position: absolute;
+  bottom: 0px;
+}
+.WebsiteLink img {
+  margin: 0 10px;
+}

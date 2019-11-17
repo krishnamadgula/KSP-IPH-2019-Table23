@@ -1,0 +1,20 @@
+.image {
+  padding: 4px;
+  display: inline-block;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.image-sm img {
+  width: 40px;
+  height: 40px;
+}
+
+.image-md img {
+  width: 80px;
+  height: 80px;
+}
+
+.image.bordered {
+  border:  1px solid #eaefef;
+}

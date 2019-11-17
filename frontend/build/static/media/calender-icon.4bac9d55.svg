@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <path id="a" d="M3.75 8.75h2.5v2.5h-2.5z"/>
+        <path id="b" d="M8.75 8.75h2.5v2.5h-2.5z"/>
+        <path id="c" d="M13.75 8.75h2.5v2.5h-2.5z"/>
+        <path id="d" d="M3.75 13.75h2.5v2.5h-2.5z"/>
+        <path id="e" d="M8.75 13.75h2.5v2.5h-2.5z"/>
+        <path id="f" d="M13.75 13.75h2.5v2.5h-2.5z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="19" height="16.5" x=".5" y="3" stroke="#80959D" rx="1"/>
+        <path stroke="#80959D" stroke-width="2" d="M5.002.042v6.23M15.002.042v6.23"/>
+        <use fill="#D8D8D8" xlink:href="#a"/>
+        <path stroke="#80959D" d="M4.25 9.25h1.5v1.5h-1.5z"/>
+        <use fill="#D8D8D8" xlink:href="#b"/>
+        <path stroke="#80959D" d="M9.25 9.25h1.5v1.5h-1.5z"/>
+        <use fill="#D8D8D8" xlink:href="#c"/>
+        <path stroke="#80959D" d="M14.25 9.25h1.5v1.5h-1.5z"/>
+        <g>
+            <use fill="#D8D8D8" xlink:href="#d"/>
+            <path stroke="#80959D" d="M4.25 14.25h1.5v1.5h-1.5z"/>
+        </g>
+        <g>
+            <use fill="#D8D8D8" xlink:href="#e"/>
+            <path stroke="#80959D" d="M9.25 14.25h1.5v1.5h-1.5z"/>
+        </g>
+        <g>
+            <use fill="#D8D8D8" xlink:href="#f"/>
+            <path stroke="#80959D" d="M14.25 14.25h1.5v1.5h-1.5z"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,100 @@
+.checkbox-group  {
+    display: flex;
+}
+
+/* Default skin */
+.checkbox-group.default-skin .checkbox-label {
+    display: flex;
+    min-width: 90px;
+    height: 44px;
+    border: 1px solid var(--border-color);
+    border-width: 1px 0 1px 1px;
+    position: relative;
+    text-transform: none;
+    color: #80959d;
+    font-weight: normal;
+    font-size: 0.875rem;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-group.default-skin .checkbox-label.selected {
+    border-color: #20c05c;
+    border-right-width: 1px;
+    color: inherit;
+    font-weight: 600;
+}
+
+.checkbox-group.default-skin .checkbox-label.selected + .checkbox-label {
+    border-left-width: 0;
+}
+
+.checkbox-group.default-skin .checkbox-label:first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+  
+.checkbox-group.default-skin .checkbox-label:last-child {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-right-width: 1px;
+}
+.checkbox-group.default-skin .selected:before
+{
+    content: "";
+    background-image: url(./tick-icon.svg);
+    width : 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left:0;
+    margin: 5px 0 0 10px;
+}
+/* End of default skin */
+
+/* Skin with icons */
+.checkbox-group.checkbox-group.icons-skin {
+    margin: 0 -10px;
+}
+
+.checkbox-group.icons-skin .checkbox-label {
+    margin: 0 10px;
+}
+
+.checkbox-group.icons-skin .checkbox-label .checkbox-icon-wrapper {
+    border: 1px solid #dadee0;
+    border-radius: 2px;
+    height: 36px;
+    box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 1);
+    transition: border-color .2s ease-in-out;
+}
+.checkbox-group.icons-skin .checkbox-label.selected .checkbox-icon-wrapper {
+    border-color: #20c05c;
+}
+
+.checkbox-group.icons-skin .checkbox-label .checkbox-text {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 0.625rem;
+    margin-top: 6px;
+    text-transform: initial;
+    color: #80959d;
+    transition: color .2s ease-in-out;
+}
+.checkbox-group.icons-skin .checkbox-label.selected .checkbox-text {
+    color: #2b3238;
+}
+
+.checkbox-group.icons-skin .checkbox-icon {
+    max-height: 24px;
+    max-width: 40px;
+}
+
+.checkbox-group.icons-skin .checkbox-icon-wrapper {
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* End of skin with icons */

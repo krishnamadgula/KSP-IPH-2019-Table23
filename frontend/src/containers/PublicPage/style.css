@@ -1,0 +1,403 @@
+:root {
+  --smart-store: #20c05c;
+  --secondary-green: #00b6a4;
+}
+.fullWidthPage .page-header {
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fullWidthPage .forgot-link {
+  float: right;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+/* TODO: extract the truck image and only repeat the remaining background */
+.fullWidthPage .page-footer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+}
+
+.fullWidthPage.eazy-page {
+  padding: 0;
+  overflow: hidden;
+}
+
+.fullWidthPage.eazy-page main {
+  padding-top: 80px;
+}
+
+.fullWidthPage header > div {
+  padding: 0 16px;
+}
+
+/* =headings */
+
+.fullWidthPage .header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fullWidthPage .header:after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 2px;
+  margin: 20px auto 0;
+  background-color: #20c05c;
+  box-shadow: 0 4px 4px 0 rgba(49, 177, 97, 0.28);
+}
+
+.fullWidthPage .heading {
+  font-size: 1.25rem;
+  line-height: 1;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0 0 10px;
+}
+
+.fullWidthPage .subheading {
+  font-size: 0.875rem;
+  line-height: 1;
+  font-weight: normal;
+  margin: 0;
+}
+
+.global-header {
+  height: 120px;
+}
+header {
+  height: 56px;
+}
+
+header .wrap {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > div {
+  padding: 0 16px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+.header-links {
+  display: none;
+}
+
+.site-nav {
+  top: 56px;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  user-select: none;
+  padding: 16px 0;
+  position: fixed;
+  opacity: 0;
+  transform: translate3d(0, -200%, 0);
+  transition: opacity 200ms ease-out;
+}
+.site-nav.expanded,
+.site-nav.site-nav.expanded {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.site-nav > ul li {
+  padding: 5px 15px;
+}
+.site-nav a,
+.site-nav span {
+  color: #333;
+  font-size: 1rem;
+  padding: 6px;
+}
+.site-nav a:hover {
+  color: var(--secondary-green);
+}
+.site-nav a.active {
+  color: var(--smart-store);
+}
+.site-nav.expanded,
+.site-nav.site-nav.expanded {
+  display: block;
+  text-align: right;
+  padding: 0;
+}
+.site-nav.expanded ul li {
+  padding: 15px;
+}
+#show-nav,
+#show-nav-eazy {
+  display: none;
+}
+.smartstore-login,
+.smartstore-signup {
+  font-size: 0.875rem;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  color: var(--primary);
+  letter-spacing: 0.9px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  border-radius: 2px;
+}
+.smartstore-login {
+  border: solid 1px #20c05c;
+  color: #20c05c;
+  padding-top: 1px !important;
+}
+.smartstore-signup {
+  background-color: var(--smart-store);
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+}
+.eazy-page .smartstore-signup {
+  padding-top: 2px !important;
+}
+
+/* =box */
+
+.fullWidthPage .box {
+  width: 390px;
+  max-width: 100%;
+  margin: auto;
+}
+.fullWidthPage .error {
+  padding: 10px;
+  margin-bottom: 16px;
+  background-color: #ea353a;
+  color: #fff;
+}
+
+.fullWidthPage .alt-action {
+  font-size: 0.75rem;
+  margin: 20px 0 0;
+  text-align: center;
+  color: #80959d;
+}
+
+.fullWidthPage .alt-action > a {
+  font-weight: bold;
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+.fullWidthPage {
+  padding: 24px 40px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.fullWidthPage .field {
+  margin-bottom: 20px;
+}
+.fullWidthPage input[type="submit"] {
+  width: 100%;
+}
+.login .username-wrapper {
+  display: flex;
+  position: relative;
+}
+.login .at-the-rate {
+  position: relative;
+  top: 37px;
+  height: max-content;
+  padding: 0 15px;
+}
+.login .expand-width {
+  display: block;
+}
+
+@media screen and (min-width: 641px) {
+  .site-nav {
+    display: block !important;
+    position: static !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    transform: translate3d(0, 0, 0) !important;
+  }
+  .header-links {
+    display: flex;
+  }
+  header .cta-link {
+    display: block;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  .menu-button {
+    display: none;
+  }
+  header {
+    height: 70px;
+  }
+  header .wrap {
+    height: 80px;
+    display: flex;
+    flex: 0 1 1;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header a {
+    display: block;
+  }
+  .site-nav {
+    padding: 0;
+  }
+  .site-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+  }
+  .site-nav a {
+    font-size: 0.875rem;
+  }
+  .site-nav > ul > li {
+    display: inline-block;
+    padding: 0 1.5vw;
+  }
+  .site-nav > ul > li:last-child {
+    padding-right: 0;
+  }
+  .site-nav > ul > li > a {
+    line-height: 40px;
+    padding: 0;
+    font-weight: 500;
+    color: #333333;
+    letter-spacing: 1px;
+  }
+  .eazy-page .common-header .site-nav > ul > li > a {
+    font-weight: 500;
+  }  
+  .site-nav > ul > li > a.current {
+    color: var(--secondary-green) !important;
+  }
+  .eazy-page .site-nav > ul > li > a.current {
+    color: #20c05c !important;
+  }
+  .submenu-link {
+    padding-right: 12px !important;
+    background: url("./triangle.svg") no-repeat center right;
+    margin-right: 12px;
+  }
+  .eazy-page .submenu-link {
+    background: url("./arrow_white.svg") no-repeat right;
+  }
+  .submenu-link:hover {
+    background: url("./aqua-green-arrow.svg") no-repeat center right;
+    background-position-x: calc(100% - -3px);
+    background-position-y: -17px;
+    color: var(--secondary-green);
+  }
+  .submenu-link:hover > span,
+  .submenu-link:hover > a {
+    color: var(--secondary-green);
+  }
+  .submenu-link:hover .submenu {
+    display: block;
+    z-index: 20;
+  }
+  .site-nav .submenu {
+    display: none;
+    min-width: 180px;
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    line-height: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  }
+  .site-nav .submenu > li {
+    display: block;
+    padding: 0;
+  }
+  .submenu a {
+    display: block;
+    padding: 13px 20px;
+    transition: background-color 200ms ease-out;
+    font-weight: 500;
+  }
+  .submenu a:hover {
+    color: var(--secondary-green);
+    background-color: var(--bg-secondary);
+  }
+  .fullWidthPage .page-footer .vehicle {
+    bottom: -3px;
+  }
+}
+
+@media (min-width: 768px) {
+  .fullWidthPage .page-footer {
+    height: 147px;
+    background-size: auto 110px;
+  }
+  .fullWidthPage header > div {
+    padding: 0 60px;
+  }
+  .fullWidthPage .header {
+    margin-bottom: 40px;
+  }
+  .fullWidthPage .heading {
+    font-size: 1.875rem;
+  }
+  .fullWidthPage .subheading {
+    font-size: 1rem;
+  }
+  .fullWidthPage .alt-action {
+    font-size: 0.875rem;
+    margin-top: 40px;
+  }
+  .fullWidthPage input[type="submit"] {
+    font-size: 1rem;
+    height: 44px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .fullWidthPage .page-footer {
+    background-size: auto 120px;
+  }
+  .fullWidthPage.eazy-page main {
+    padding: 80px 40px;
+  }
+  .fullWidthPage .page-footer .vehicle {
+    width: 100px;
+    bottom: -25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fullWidthPage.eazy-page main {
+    padding-top: 70px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .wrap {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .fullWidthPage.login  .box,  .fullWidthPage.signup  .box, .fullWidthPage.forgot-password .box{
+    padding: 20px;
+  }
+}

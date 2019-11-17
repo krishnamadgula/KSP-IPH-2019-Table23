@@ -1,0 +1,52 @@
+{
+  "name": "platform-admin-new",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/react": "^16.3.14",
+    "ajv": "^6.5.0",
+    "axios": "^0.19.0",
+    "browser-unhandled-rejection": "^1.0.2",
+    "draft-js": "^0.10.5",
+    "draft-js-export-html": "^1.2.0",
+    "draft-js-import-html": "^1.2.1",
+    "libphonenumber-js": "^1.2.9",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.find": "^4.6.0",
+    "lodash.isempty": "^4.4.0",
+    "messageformat": "^1.1.1",
+    "moment": "^2.22.1",
+    "rc-time-picker": "^3.6.6",
+    "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.4",
+    "react-beautiful-dnd": "^6.0.2",
+    "react-big-calendar": "^0.19.2",
+    "react-dates": "^16.7.0",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-phone-number-input": "^1.0.11",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.5",
+    "react-sortable-hoc": "^1.10.1",
+    "react-toggle": "^4.0.2",
+    "sanitize.css": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "source-map-explorer": "^1.6.0"
+  },
+  "standard": {
+    "globals": [
+      "Feature",
+      "Scenario",
+      "actor",
+      "Before"
+    ]
+  }
+}

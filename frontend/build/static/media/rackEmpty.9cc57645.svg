@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>rack empty</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="169.961462%" y1="-324.053889%" x2="38.5316377%" y2="125.542689%" id="linearGradient-1">
+            <stop stop-color="#44C0FF" offset="0%"></stop>
+            <stop stop-color="#B9F9F0" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="12" height="123"></rect>
+        <rect id="path-3" x="0" y="0" width="40" height="22"></rect>
+        <rect id="path-4" x="56" y="-7" width="12" height="102"></rect>
+        <rect id="path-5" x="56" y="43" width="12" height="102"></rect>
+        <rect id="path-6" x="112" y="0" width="12" height="123"></rect>
+        <rect id="path-7" x="36" y="69" width="25" height="20"></rect>
+        <rect id="path-8" x="80" y="69" width="25" height="20"></rect>
+    </defs>
+    <g id="resized-illustrations_version-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="rack-empty">
+            <g id="error-msg">
+                <rect id="Rectangle-4" x="0" y="0" width="300" height="300"></rect>
+                <path d="M265.254584,151.741573 C264.589504,212.19705 215.411011,261 154.842324,261 C93.8595457,261 44.4232365,211.527465 44.4232365,150.5 C44.4232365,145.447329 44.7621099,140.473863 45.4183532,135.601124 L10.9325843,135.601124 C5.44696945,135.601124 1,131.154154 1,125.668539 C1,120.182925 5.44696945,115.735955 10.9325843,115.735955 L49.9985591,115.735955 L89.0798639,115.735955 C94.5654787,115.735955 99.0124481,111.288986 99.0124481,105.803371 C99.0124481,101.536153 96.3215139,97.8974372 92.543996,96.491573 C91.4654202,96.8929824 90.2982612,97.1123596 89.0798639,97.1123596 L43.1898457,97.1123596 C37.7042309,97.1123596 33.2572614,92.6653901 33.2572614,87.1797753 C33.2572614,81.6941605 37.7042309,77.247191 43.1898457,77.247191 L72.1710885,77.247191 C92.4001989,54.4006708 121.940764,40 154.842324,40 C202.299058,40 242.763324,69.9602512 258.37869,112.011236 L290.067416,112.011236 C295.553031,112.011236 300,116.458205 300,121.94382 C300,127.429435 295.553031,131.876404 290.067416,131.876404 L263.699818,131.876404 L241.69607,131.876404 C236.210455,131.876404 231.763485,136.323374 231.763485,141.808989 C231.763485,147.294604 236.210455,151.741573 241.69607,151.741573 L265.254584,151.741573 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            </g>
+            <g id="Group-39" transform="translate(98.000000, 106.000000)">
+                <g id="Rectangle-55">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#64808C" stroke-width="1" x="0.5" y="0.5" width="11" height="122"></rect>
+                </g>
+                <g id="Group-37" transform="translate(17.000000, 7.000000)">
+                    <rect id="Rectangle-56" fill="#EB8181" x="0" y="0" width="40" height="32"></rect>
+                    <polyline id="Rectangle-66" fill="#FFFFFF" points="28 0 28 19 19.6392662 11.8195143 12 19 12 0"></polyline>
+                </g>
+                <g id="Group-38" transform="translate(60.000000, 17.000000)">
+                    <g id="Rectangle-56-Copy">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#64808C" stroke-width="1" x="0.5" y="0.5" width="39" height="21"></rect>
+                    </g>
+                    <rect id="Rectangle-65" fill="#87D5FA" x="8" y="10" width="13" height="4"></rect>
+                    <rect id="Rectangle-65-Copy" fill="#87D5FA" x="24" y="10" width="7" height="4"></rect>
+                </g>
+                <rect id="Rectangle-67" fill="#87D5FA" x="17" y="57" width="20" height="32"></rect>
+                <rect id="Rectangle-67-Copy-2" fill="#EB8181" x="60" y="57" width="20" height="32"></rect>
+                <g id="Rectangle-55-Copy-2" transform="translate(62.000000, 44.000000) rotate(-270.000000) translate(-62.000000, -44.000000) ">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#64808C" stroke-width="1" x="56.5" y="-6.5" width="11" height="101"></rect>
+                </g>
+                <g id="Rectangle-55-Copy-3" transform="translate(62.000000, 94.000000) rotate(-270.000000) translate(-62.000000, -94.000000) ">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#64808C" stroke-width="1" x="56.5" y="43.5" width="11" height="101"></rect>
+                </g>
+                <g id="Rectangle-55-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <rect stroke="#64808C" stroke-width="1" x="112.5" y="0.5" width="11" height="122"></rect>
+                </g>
+                <g id="Rectangle-67-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <rect stroke="#64808C" stroke-width="1" x="36.5" y="69.5" width="24" height="19"></rect>
+                </g>
+                <g id="Rectangle-67-Copy-3">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    <rect stroke="#64808C" stroke-width="1" x="80.5" y="69.5" width="24" height="19"></rect>
+                </g>
+                <rect id="Rectangle-68-Copy" fill="#EB8181" x="40" y="73" width="6" height="6"></rect>
+                <rect id="Rectangle-68-Copy-2" fill="#87D5FA" x="84" y="73" width="6" height="6"></rect>
+                <path d="M40.5,81.5 L47.5,81.5" id="Line-42-Copy-2" stroke="#64808C" stroke-linecap="square"></path>
+                <path d="M84.5,81.5 L91.5,81.5" id="Line-42-Copy-4" stroke="#64808C" stroke-linecap="square"></path>
+                <path d="M40.5,84.5 L43.5,84.5" id="Line-42-Copy-3" stroke="#64808C" stroke-linecap="square"></path>
+                <path d="M84.5,84.5 L87.5,84.5" id="Line-42-Copy-5" stroke="#64808C" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

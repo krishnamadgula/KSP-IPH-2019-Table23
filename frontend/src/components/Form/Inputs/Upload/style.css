@@ -1,0 +1,73 @@
+.Upload {
+    position: relative;
+}
+
+.details img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Upload .details {
+    display: flex;
+    flex-direction: column;
+}
+
+.Upload .file-label {
+    text-align: center;
+    padding: 40px 60px;
+    background-color: #fff;
+    font-size: 0.875rem;
+    color: #aeb9bd;
+    letter-spacing: -0.2px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Upload .file-label::before {
+    height: 50px;
+    width: 50px;
+    content: '';
+    display: block;
+    background: url(./imageUpload.svg) no-repeat center;
+    margin-bottom: 10px;
+}
+
+.image-upload-div img {
+    max-width: 100%;
+    max-height: 100% !important;
+}
+
+.Upload .image-upload-div {
+    width: 100%;
+    max-height: 205px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./transparent_bg.svg);
+    background-repeat: repeat;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    transition: border 0.2s ease-in-out;
+}
+.image-preview-popup {
+    margin: 0 auto;
+}
+
+.Upload input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.Upload input:focus + .image-upload-div {
+    border-color: #20c05c;
+}

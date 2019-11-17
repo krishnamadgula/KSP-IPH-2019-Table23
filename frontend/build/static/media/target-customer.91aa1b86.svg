@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M-3-2h40v40H-3z" opacity=".05"/>
+        <g transform="translate(0 1)">
+            <path fill="#FFF" d="M7 10.041h8a7 7 0 0 1 7 7v1.4a5.6 5.6 0 0 1-5.6 5.6H4a4 4 0 0 1-4-4v-3a7 7 0 0 1 7-7z"/>
+            <path stroke="#80959D" d="M7 10.541a6.5 6.5 0 0 0-6.5 6.5v3a3.5 3.5 0 0 0 3.5 3.5h12.4a5.1 5.1 0 0 0 5.1-5.1v-1.4a6.5 6.5 0 0 0-6.5-6.5H7z"/>
+            <circle cx="11.407" cy="6" r="6" fill="#FFF" fill-rule="nonzero" stroke="#80959D"/>
+            <g transform="translate(2.4)">
+                <path fill="#FFF" d="M9.5 12.91h10a9.5 9.5 0 0 1 9.5 9.5v3.9a5.6 5.6 0 0 1-5.6 5.6H5.6a5.6 5.6 0 0 1-5.6-5.6v-3.9a9.5 9.5 0 0 1 9.5-9.5z"/>
+                <path stroke="#80959D" d="M9.5 13.41a9 9 0 0 0-9 9v3.9a5.1 5.1 0 0 0 5.1 5.1h17.8a5.1 5.1 0 0 0 5.1-5.1v-3.9a9 9 0 0 0-9-9h-10z"/>
+                <circle cx="14.452" cy="7.5" r="7.5" fill="#FFF" fill-rule="nonzero" stroke="#80959D"/>
+            </g>
+            <circle cx="26.7" cy="26.7" r="7.5" fill="#7BD49D" fill-rule="nonzero" stroke="#FFF" stroke-width="1.6"/>
+            <g fill="#FFF" fill-rule="nonzero">
+                <path d="M26.08 23.2h1.44v7.2h-1.44z"/>
+                <path d="M30.4 26.08v1.44h-7.2v-1.44z"/>
+            </g>
+        </g>
+    </g>
+</svg>

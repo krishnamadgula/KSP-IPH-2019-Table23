@@ -1,0 +1,3 @@
+.notificationToday.icon-notification:hover {
+    background-image: url('./notification-active.svg');
+}

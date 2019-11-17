@@ -1,0 +1,82 @@
+.notificationToday {
+  cursor: pointer;
+}
+
+.notificationToday .notification-close-icon {
+  cursor: pointer;
+}
+
+.notificationToday .NotificationBox {
+  width: 295px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  border: solid 1px #eaefef;
+  position: absolute;
+  top: 62px;
+  left: 17px;
+  z-index: 2;
+  cursor: auto;
+}
+
+.notificationToday .NotificationBox .heading{
+  height: 40px;
+  background-color: #fbfcfc;
+  border-bottom: solid 1px #eaefef;
+  font-weight: 600;
+  color: #80959d;
+  padding: 0 15px;
+}
+
+.notificationToday .NotificationBox .title{
+  font-size: 12px;
+  letter-spacing: -0.2px;
+  line-height: 40px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.notificationToday .content{
+  width: 80%;
+  padding: 20px 0;
+  margin: auto;
+}
+
+.notificationToday .notificationText{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #2b3238;
+  max-width: 225px;
+}
+
+.notificationToday .NotificationBox::before {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 37%;
+  margin-left: -6px;
+  border-width: 10.4px;
+  border-style: solid;
+  border-color: transparent transparent #eaefef transparent;
+}
+
+.notificationToday .NotificationBox::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 37.5%;
+  margin-left: -6px;
+  border-width: 9px;
+  border-style: solid;
+  border-color: transparent transparent #fbfcfc transparent;
+}
+
+.notificationToday .close-icon {
+  cursor: pointer;
+}

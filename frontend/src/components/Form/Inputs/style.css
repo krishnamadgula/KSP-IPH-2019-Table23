@@ -1,0 +1,35 @@
+.input-error-message {
+  color: #ea353a;
+  margin-top: 4px;
+  font-size: 0.75rem;
+}
+
+.input-error-message:empty {
+  display: none;
+}
+
+.input-error input[type="text"],
+.input-error input[type="password"],
+.input-error input[type="email"],
+.input-error input[type="url"],
+.input-error input[type="tel"],
+.input-error input[type="number"] {
+  border: 1px solid #ea353a;
+  background-color: #fbf5f5;
+}
+
+.input-error .ImageUpload {
+  border: 1px solid #ea353a;
+}
+
+.input-error .image-upload-div {
+  border: 1px solid #ea353a;
+}
+
+input[type='text']:read-only,
+input[type='number']:read-only,
+input[type='password']:read-only,
+input[type='tel']:read-only {
+  color: var(--secondary-text-color);
+  cursor: not-allowed;
+}

@@ -1,0 +1,8 @@
+.SingleDatePicker,
+.SingleDatePickerInput {
+  width: 100%;
+}
+
+.SingleDatePickerInput__withBorder {
+  border-radius: 2px;
+}

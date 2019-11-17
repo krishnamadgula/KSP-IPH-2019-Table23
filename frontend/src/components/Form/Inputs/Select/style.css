@@ -1,0 +1,8 @@
+.Select select {
+     -webkit-appearance: none;  /*Removes default chrome and safari style*/
+     -moz-appearance: none;  /*Removes default style Firefox*/
+      background: url('dropdown arrow.svg')  no-repeat;
+      background-position: calc(100% - 20px) calc(1em + 5px),
+      calc(100% - 15px) calc(1em + 2px),
+      100% 0;
+}

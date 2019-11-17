@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="15" height="15"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-2-Copy">
+                <g id="Rectangle-3" opacity="0">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="14" height="14"></rect>
+                </g>
+                <path d="M10.2027027,2.5 L9.04560811,3.65709459 L11.3429054,5.95439189 L12.5,4.7972973 L10.2027027,2.5 Z M8.66131757,4.04138514 L3.50506757,9.19763514 L5.80236486,11.4949324 L10.9586149,6.33868243 L8.66131757,4.04138514 Z M3.15456081,9.61570946 L2.5,12.5 L5.38429054,11.8454392 L3.15456081,9.61570946 Z" id="Shape" fill="#80959D" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

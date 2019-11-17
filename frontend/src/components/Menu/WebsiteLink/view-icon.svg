@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>external link</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="external-link">
+            <g id="Group-2">
+                <rect id="Rectangle" x="0" y="0" width="12" height="12"></rect>
+                <g id="Group" transform="translate(1.000000, 1.000000)">
+                    <path d="M9.49012256,0.527705064 L4.5,5.16051588" id="Line-10" stroke="#20C05C" stroke-linecap="square"></path>
+                    <polyline id="Path-5" stroke="#20C05C" points="5.9894092 0.251137992 9.76720571 0.251137992 9.76720571 3.60626815"></polyline>
+                    <polyline id="Path-32" stroke="#80959D" points="3.42149746 0.275010635 0.267545279 0.275010635 0.267545279 9.66805771 9.7803881 9.66805771 9.7803881 6.47826497"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,120 @@
+.table {
+  display: table;
+  width: 100%;
+}
+
+.table .table-row {
+  display: table-row;
+  color: #2b3238;
+  font-size: 0.875rem;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.table .table-caption {
+  display: table-caption;
+}
+
+.table .table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 15px 10px;
+}
+
+.table .table-header .table-cell {
+  vertical-align: baseline;
+}
+
+.table .table-cell.align-right {
+  text-align: right;
+}
+
+.table .table-cell:first-child {
+  padding-left: 20px;
+}
+
+.table .table-cell:last-child {
+  text-align: right;
+  padding-right: 20px
+}
+
+.table .table-header {
+  display: table-row;
+  color: #80959d;
+  font-size: 0.75rem;
+  font-weight: 600;
+  height: 38px;
+}
+
+.table .table-row:nth-child(2n) {
+  background-color: #fbfcfc;
+}
+
+.table .table-row .table-cell {
+  border-top: 1px solid #eaefef;
+}
+
+.table .table-row:last-child .table-cell {
+  border-bottom: 1px solid #eaefef;
+}
+
+.table .actions-link {
+  font-size: 1.2rem;
+  color: #80959d;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.table .table-row:hover {
+  position: relative;
+}
+
+@media(max-width:840px){
+  .table.table-dynamic {
+    display: flex !important;
+    width: auto;
+    margin: -10px; 
+    flex-flow: row wrap;
+  }
+  .table.table-dynamic .table-header{
+    display: none;
+  }
+  .table.table-dynamic .table-row {
+    min-height: 135px;
+    width: calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    box-shadow: none !important;
+    border: 1px solid #eaefef;
+    border-radius: 2px;
+    background-color: #ffffff !important;
+    margin: 10px !important;
+    position: relative;
+  }
+  .table.table-dynamic .table-row .table-cell{
+    padding: 20px;
+    border:none !important;
+  }
+
+}
+
+@media(max-width:580px){
+  .table.table-dynamic{
+    flex-flow: column wrap;
+  }
+  .table.table-dynamic .table-row {
+    flex-grow: 1;
+    flex-flow: column wrap;
+    width: 100%;
+    margin: -1px 0 0 0 !important;
+    min-height: 125px;
+  }
+  .table.table-dynamic .table-row .table-cell {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .table .table-cell {
+    padding: 15px 8px;
+  }
+}

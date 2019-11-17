@@ -1,0 +1,12 @@
+.CustomerAddressWidget .address-form p {
+  margin-top: 0;
+}
+.CustomerAddressWidget .address-form .primary {
+  margin-top: 20px;
+}
+.CustomerAddressWidget .editPopup.map-address {
+  max-width: 80%;
+}
+.CustomerAddressWidget .editPopup.map-address form {
+  max-width: 100%;
+}

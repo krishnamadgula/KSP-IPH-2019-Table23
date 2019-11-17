@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Trip-Planner-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-361.000000, -205.000000)">
+        <g id="Group" transform="translate(361.000000, 204.000000)">
+            <rect id="Rectangle-16" x="0" y="0" width="16" height="16"></rect>
+            <g id="customer" transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) translate(1.000000, 1.000000)" stroke="#80959D" stroke-width="0.7">
+                <path d="M0.681372549,0.886257341 L0.681372549,1.95846513 C0.681372549,3.67584965 1.41650016,4.94552274 2.65651408,5.76784987 C3.86815897,6.57117211 5.48560418,5.49900652 7.18075583,5.49900652 C8.87631863,5.49900652 10.4949973,6.57117211 11.7054087,5.76784987 C12.9450115,4.94588822 13.6813725,3.67438774 13.6813725,1.95846513 L13.6813725,0.886257341 L0.681372549,0.886257341 Z M3.68137255,10.386058 C3.68137255,12.3179448 5.24937574,13.8862573 7.18097387,13.8862573 C9.11336936,13.8862573 10.6813725,12.3179448 10.6813725,10.386058 C10.6813725,8.45417123 9.11336936,6.88625734 7.18097387,6.88625734 C5.24937574,6.88625734 3.68137255,8.45417123 3.68137255,10.386058 Z" id="Shape" transform="translate(7.181373, 7.386257) rotate(-180.000000) translate(-7.181373, -7.386257) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

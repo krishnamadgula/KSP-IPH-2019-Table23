@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>employee empty</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="169.961462%" y1="-324.053889%" x2="38.5316377%" y2="125.542689%" id="linearGradient-1">
+            <stop stop-color="#44C0FF" offset="0%"></stop>
+            <stop stop-color="#B9F9F0" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="28" width="134" height="97"></rect>
+        <circle id="path-3" cx="67.5" cy="14.5" r="7.5"></circle>
+    </defs>
+    <g id="resized-illustrations_version-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="employee-empty">
+            <g id="error-msg">
+                <rect id="Rectangle-4" x="0" y="0" width="300" height="300"></rect>
+                <path d="M265.254584,151.741573 C264.589504,212.19705 215.411011,261 154.842324,261 C93.8595457,261 44.4232365,211.527465 44.4232365,150.5 C44.4232365,145.447329 44.7621099,140.473863 45.4183532,135.601124 L10.9325843,135.601124 C5.44696945,135.601124 1,131.154154 1,125.668539 C1,120.182925 5.44696945,115.735955 10.9325843,115.735955 L49.9985591,115.735955 L89.0798639,115.735955 C94.5654787,115.735955 99.0124481,111.288986 99.0124481,105.803371 C99.0124481,101.536153 96.3215139,97.8974372 92.543996,96.491573 C91.4654202,96.8929824 90.2982612,97.1123596 89.0798639,97.1123596 L43.1898457,97.1123596 C37.7042309,97.1123596 33.2572614,92.6653901 33.2572614,87.1797753 C33.2572614,81.6941605 37.7042309,77.247191 43.1898457,77.247191 L72.1710885,77.247191 C92.4001989,54.4006708 121.940764,40 154.842324,40 C202.299058,40 242.763324,69.9602512 258.37869,112.011236 L290.067416,112.011236 C295.553031,112.011236 300,116.458205 300,121.94382 C300,127.429435 295.553031,131.876404 290.067416,131.876404 L263.699818,131.876404 L241.69607,131.876404 C236.210455,131.876404 231.763485,136.323374 231.763485,141.808989 C231.763485,147.294604 236.210455,151.741573 241.69607,151.741573 L265.254584,151.741573 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            </g>
+            <g id="Group-32" transform="translate(83.000000, 105.000000)">
+                <g id="Rectangle-53">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#64808C" stroke-width="1" x="0.5" y="28.5" width="133" height="96"></rect>
+                </g>
+                <path d="M67,0 L67,0 C75.2842712,-1.52179594e-15 82,6.71572875 82,15 L82,45 L52,45 L52,15 C52,6.71572875 58.7157288,-2.03091774e-15 67,-3.55271368e-15 Z" id="Rectangle-54" fill="#EB8181"></path>
+                <g id="Oval-24">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <circle stroke="#64808C" stroke-width="1" cx="67.5" cy="14.5" r="7"></circle>
+                </g>
+                <g id="Group" transform="translate(8.000000, 46.000000)" fill="#87D5FA">
+                    <path d="M39.5238095,37 C35.952381,38.670419 31.9047619,39.6912306 27.5,39.6912306 C23.0952381,39.6912306 18.9285714,38.670419 15.4761905,37 C6.54761905,38.76322 0,44.9808906 0,52.404975 L0,62.1875 L55,62.1875 L55,52.404975 C55,44.8880896 48.3333333,38.76322 39.5238095,37 Z" id="Shape"></path>
+                    <path d="M26.5178571,32.9375 C35.7809442,32.9375 43.2142857,25.4927226 43.2142857,16.46875 C43.2142857,7.4447774 35.6665851,0 26.5178571,0 C17.3691292,0 9.82142857,7.55757705 9.82142857,16.5815497 C9.82142857,25.6055223 17.2547701,32.9375 26.5178571,32.9375 Z" id="Shape"></path>
+                </g>
+                <path d="M69.5,60.5 L123.5,60.5" id="Line-41" stroke="#64808C" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M69.5,78.5 L123.5,78.5" id="Line-41-Copy" stroke="#64808C" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M69.5,96.5 L123.5,96.5" id="Line-41-Copy-2" stroke="#64808C" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M69.5,114.5 L123.5,114.5" id="Line-41-Copy-3" stroke="#64808C" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M8.5,114.5 L62.5,114.5" id="Line-41-Copy-4" stroke="#64808C" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

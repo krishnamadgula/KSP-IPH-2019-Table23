@@ -1,0 +1,149 @@
+.sortable-tree .add-button {
+  color: #20c05c;
+}
+
+.sortable-tree .remove-button {
+  background-image: url('./delete-icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 0;
+  height: 20px;
+  padding: 10px;
+  position: absolute;
+  margin-left:1.2rem;
+}
+
+.sortable-tree .rst__moveHandle {
+  background: #fff url('./move-icon-inactive.svg') no-repeat center;
+}
+
+.sortable-tree .rst__expandButton {
+  background:#fff url('./dropdown-arrrow-inactive.svg') no-repeat center;
+  background-size: cover;
+  
+}
+
+
+.sortable-tree .rst__collapseButton {
+  background:#fff url('./dropdown-arrow.svg') no-repeat center;
+  background-size: cover;
+}
+
+.sortable-tree .rst__expandButton, .sortable-tree .rst__collapseButton {
+  font-size: 0;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.sortable-tree .category-tree .rst__collapseButton:hover:not(:active), .rst__expandButton:hover:not(:active) {
+  border: 1px solid #80959d;
+}
+
+.sortable-tree .rst__expandButton::before {
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+  background-color: #20c05c
+}
+
+.sortable-tree .category-tree .rst__lineFullVertical::before, .rst__lineHalfVerticalTop::before, .rst__lineHalfVerticalBottom::before { 
+  background: #fff;
+  border-top:1px dashed #20c05c;
+}
+.sortable-tree .category-tree .rst__lineFullVertical::after, .rst__lineHalfVerticalTop::after, .rst__lineHalfVerticalBottom::after { 
+  background: #fff;
+  border-left:1px dashed #20c05c;
+
+}
+
+.sortable-tree .category-tree .rst__lineFullVertical:first-child::after, .rst__lineHalfVerticalTop:first-child::after, .rst__lineHalfVerticalBottom:first-child::after { 
+  background: #fff;
+  border-left:1px solid #80959d;
+}
+
+.sortable-tree .category-tree .rst__lineChildren::after {
+  background: #fff;
+  border-left: 1px dashed #20c05c;
+  height:1px;
+}
+
+.sortable-tree .category-tree .rst__nodeContent::before {
+  content: '';
+  position: absolute;
+  left: -26px;
+  top: 42%;
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+  background-color:#20c05c;
+  border-radius: 100%;
+}
+
+.sortable-tree .category-tree .rst__lineBlock:first-child::before {
+  border-top:none;
+}
+
+.sortable-tree .category-tree .rst__toolbarButton:first-child {
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+
+.sortable-tree .category-tree .rst__toolbarButton:first-child img {
+  width: 25px;
+  height: 25px;
+}
+
+.sortable-tree .category-tree .rst__rowLabel {
+  margin-left: 2.8rem;
+}
+
+.sortable-tree .category-tree .rst__row, .rst__rowWrapper {
+  min-height: 45px;
+  max-width: 550px;
+  box-shadow: none;
+  border:none;
+  background-color: #fbfcfc;
+}
+
+.sortable-tree .category-tree .rst__row > .rst__moveHandle {
+  border-radius: none;
+  border: none;
+  box-shadow: none;
+}
+
+.sortable-tree .category-tree .rst__rowContents {
+  border:none;
+  box-shadow: none !important;
+}
+
+.sortable-tree .category-tree .rst__node .rst__nodeContent:nth-child(n + 3) .rst__row {
+  border:1px solid #eaefef;
+}
+
+.sortable-tree .category-tree .rst__node .rst__nodeContent:nth-child(3) .rst__row {
+  width: calc(100% -  44px);
+}
+
+.sortable-tree .category-tree .rst__node .rst__nodeContent:nth-child(4) .rst__row {
+  width: calc(100% - 88px);
+}
+
+.sortable-tree .category-tree .rst__node .rst__nodeContent:nth-child(5) .rst__row {
+  width: calc(100% - 132px);
+}
+
+.sortable-tree .category-tree .rst__node .rst__nodeContent:nth-child(6) .rst__row {
+  width: calc(100% - 176px);
+}
+
+.sortable-tree .category-tree .rst__node .rst__nodeContent:nth-child(7) .rst__row {
+  width: calc(100% - 220px);
+}
+
+.sortable-tree .category-tree .rst__node .rst__nodeContent:nth-child(8) .rst__row {
+  width: calc(100% - 264px);
+}

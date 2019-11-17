@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="143px" viewBox="0 0 400 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>default-banner</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="test" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="default-banner">
+            <g id="Group">
+                <g id="a-link" fill="#FFEEEE" fill-rule="nonzero">
+                    <polygon id="a" points="0 0 400 0 400 143 0 143"></polygon>
+                </g>
+                <polygon id="Shape" stroke="#F8E6E6" points="0.5 0.5 399.5 0.5 399.5 142.5 0.5 142.5"></polygon>
+            </g>
+            <g id="Group" opacity="0.2" transform="translate(157.000000, 38.000000)" fill="#80959D" fill-rule="nonzero">
+                <g transform="translate(0.000000, 29.551000)">
+                    <path d="M4.076,33.627 L49.931,33.627 L49.931,4.076 L4.076,4.076 L4.076,33.627 Z M0,0 L54.007,0 L54.007,37.703 L0,37.703 L0,0 Z" id="Shape"></path>
+                    <polygon id="Shape" points="9.171 27.513 15.286 10.19 26.267 22.597 32.608 19.547 32.608 27.513"></polygon>
+                    <circle id="Oval" cx="41.779" cy="14.266" r="4.076"></circle>
+                </g>
+                <polygon id="Shape" opacity="0.5" points="35.104 7.04 78.637 31.686 62.408 59.234 56.42 56.021 56.807 61.483 64.569 65.615 85.657 29.805 33.215 0.116 17.834 27.276 24.114 26.104"></polygon>
+                <circle id="Oval" opacity="0.5" cx="63.179" cy="37.703" r="4.076"></circle>
+                <polygon id="Shape" opacity="0.5" points="33.627 25.475 43.817 25.475 41.967 17.323"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

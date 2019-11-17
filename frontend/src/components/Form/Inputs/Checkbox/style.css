@@ -1,0 +1,37 @@
+input[type="checkbox"] {
+  display: none;
+  width: 28px;
+}
+
+input[type="checkbox"] + label {
+  position: relative;
+  padding-left: 28px;
+  display: inline-block;
+  min-height: 1rem;
+  vertical-align: top;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  border: 1px solid var(--border-color);
+  background-color: #fff;
+  border-radius: 2px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  transition: background 100ms ease-in-out;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input[type="checkbox"]:checked + label:before {
+  border-color: #20c05c;
+  background-color: #20c05c;
+  background-image: url(./tick.svg);
+}

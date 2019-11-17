@@ -1,0 +1,36 @@
+.rrui__select__button {
+  width: 40px;
+  height: 40px;
+  border-bottom: none;
+  border-radius: 2px;
+}
+
+.react-phone-number-input__icon {
+  height: 22px;
+  border: none;
+}
+
+.rrui__input {
+  height: 44px !important;
+}
+
+.rrui__select__options {
+  left: 0 !important;
+  width: 100% !important;
+}
+
+.rrui__input-field:focus, .rrui__select__button:focus, .rrui__select__native-expanded:focus + .rrui__select__button {
+  border-bottom-color: #20c05c;
+}
+
+.rrui__select__button {
+  height: 44px;
+  width: 60px;
+  padding: 0 10px;
+  border: 1px solid var(--border-color);
+  transition: border-color 200ms ease-in-out;
+}
+
+.rrui__select__button:focus {
+  border-color: #20c05c
+}

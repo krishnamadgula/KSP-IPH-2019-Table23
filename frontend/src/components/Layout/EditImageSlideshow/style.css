@@ -1,0 +1,14 @@
+.EditImageslideshow {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #eaefef;
+  background-color: #fff;
+  border-top-width: 0;
+}
+.EditImageslideshow .form {
+  padding: 30px;
+  display: flex;
+  max-width: initial;
+}
+.EditImageslideshow .form > div {
+  flex: 1;
+}

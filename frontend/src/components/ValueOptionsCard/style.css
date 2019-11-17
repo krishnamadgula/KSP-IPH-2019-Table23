@@ -1,0 +1,16 @@
+.ValueOptionsCard {
+    width: 100%;
+    padding: 15px;
+    border: solid 1px #eaefef;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.ValueOptionsCard .value {
+    overflow: hidden;
+    overflow-wrap: break-word;
+}

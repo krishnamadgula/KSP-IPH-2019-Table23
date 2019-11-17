@@ -1,0 +1,73 @@
+.CustomerDetailsCard {
+    background-color: #fbfcfc;
+    text-align: center;
+    font-size: 0.875rem;
+    max-height: 278px;
+    border-radius: 4px;
+    width: 260px;
+}
+.CustomerDetailsCard .image {
+    height: 84px;
+    width: 84px;
+    margin-top: 30px;
+    margin-bottom: 18px;
+    border-radius: 84px;
+    background-color: transparent;
+}
+.CustomerDetailsCard .image img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #20c05c;
+    border-radius: 84px;
+}
+.CustomerDetailsCard .detail div {
+    font-weight: 600;
+    word-break: break-all;
+    padding: 0 10px 5px 10px;
+}
+.CustomerDetailsCard .customer-actions {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    display: flex;
+    justify-content:center;
+}
+
+.CustomerDetailsCard .ButtonWithOptions {
+    display: inline-flex;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border: solid 1px #eaefef;
+}
+
+.CustomerDetailsCard .ButtonWithOptions > :first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.CustomerDetailsCard .customer-actions .DropDown .dropdown-menu {
+    top: 29px;
+    right: -2px;
+}
+.CustomerDetailsCard .customer-actions .call {
+    background-image: url(./call-inactive.svg)
+}
+.CustomerDetailsCard .customer-actions .mail {
+    background-image: url(./mail.svg)
+}
+.CustomerDetailsCard .customer-actions .sms {
+    background-image: url(./sms.svg)
+}
+.CustomerDetailsCard .customer-actions .call:hover {
+    background-color: #20c05c;
+    background-image: url(./call.svg)
+}
+.CustomerDetailsCard .customer-actions .mail:hover {
+    background-color: #44bffe;
+    background-image: url(./mail-active.svg)
+}
+.CustomerDetailsCard .customer-actions .sms:hover {
+    background-color: #eb8181;
+    background-image: url(./smsactive.svg)
+}

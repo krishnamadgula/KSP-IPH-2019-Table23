@@ -1,0 +1,76 @@
+/* Alignment */
+.attendace-summary-page .table-row .table-cell:first-child,
+.attendace-summary-page .table-header .table-cell:first-child{
+  background: #f5f6fa;
+  text-align: left;
+  border-left: none;
+  width: 280px;
+}
+.attendace-summary-page .table-row .table-cell{
+  text-align: center;
+}
+
+.attendace-summary-page .table-row .table-cell,
+.attendace-summary-page .table-header .table-cell {
+  min-width: 170px;
+  border-left: 1px solid #eaefef;
+}
+ 
+/* Override bg color */
+.attendace-summary-page .table .table-row:nth-child(2n) {
+    background-color: #ffffff;
+}
+
+.attendace-summary-page .table-row.header {
+  background-color: #f5f6fa;
+}
+
+/* Status Colors */
+.attendace-summary-page .table-cell .status {
+    max-width: 100%;
+    min-width: 80px;
+    height: 26px;
+    border-radius: 4px;
+    letter-spacing: -0.2px;
+    line-height: 25px;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 0 8px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.attendace-summary-page .table-cell .color-ABSENT {
+  color: #eb8181;
+}
+.attendace-summary-page .table-cell .color-WEEKLY_OFF {
+  color: #7bd49d;
+}
+.attendace-summary-page .table-cell .color-PRESENT {
+  color: #2b3238;
+}
+.attendace-summary-page .table-cell .status + small{
+  display: block;
+}
+
+.attendace-summary-page .table-cell .color-ABSENT, .attendace-summary-page .table-cell .color-WEEKLY_OFF, .attendace-summary-page .table-cell .color-PRESENT{
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+/* Show only one header */
+.attendace-summary-page .table .table-row + .table-row.header{
+  display: none;
+}
+
+
+/* Hide pagination */
+.attendace-summary-page .pagination-container{
+  display: none;
+}
+
+.attendace-summary-page .empty-attendance-state {
+  display: flex;
+  flex-direction: column;
+  text-align: center
+}

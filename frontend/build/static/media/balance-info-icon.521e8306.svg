@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="67" viewBox="0 0 91 67">
+    <defs>
+        <linearGradient id="a" x1="115.513%" x2="43.737%" y1="-324.054%" y2="125.543%">
+            <stop offset="0%" stop-color="#44C0FF"/>
+            <stop offset="100%" stop-color="#B9F9F0" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#a)" fill-rule="nonzero" d="M80.597 33.544c-.072 18.39-15.031 33.277-33.474 33.277-18.488 0-33.475-14.958-33.475-33.41 0-1.581.11-3.137.323-4.66H3.506a2.928 2.928 0 0 1 0-5.856h24.018a2.928 2.928 0 0 0 0-5.857H13.375a2.928 2.928 0 1 1 0-5.857h8.757C28.262 4.321 37.187 0 47.122 0c14.41 0 26.691 9.086 31.41 21.83h9.54a2.928 2.928 0 1 1 0 5.857H73.39a2.928 2.928 0 0 0 0 5.857h7.207z"/>
+        <path d="M20 4h70v70H20z"/>
+        <g transform="translate(27.467 18.933)">
+            <rect width="43.867" height="31.733" fill="#FFF" rx="4"/>
+            <rect width="42.933" height="30.8" x=".467" y=".467" stroke="#64808C" rx="4"/>
+        </g>
+        <path fill="#87D5FA" d="M27.467 23.6h43.867V32H27.467z"/>
+        <path stroke="#64808C" d="M27.934 24.067h42.933v7.467H27.934z"/>
+        <path stroke="#64808C" stroke-linecap="round" d="M30.733 39.933h5.6M30.733 43.667H41"/>
+        <g transform="translate(39.6 27.333)">
+            <rect width="43.867" height="31.733" fill="#FFF" rx="4"/>
+            <rect width="42.933" height="30.8" x=".467" y=".467" stroke="#64808C" rx="4"/>
+        </g>
+        <g fill-rule="nonzero" stroke="#64808C" transform="translate(65.733 45.067)">
+            <circle cx="4.667" cy="4.667" r="4.667" fill="#87D5FA"/>
+            <circle cx="10.267" cy="4.667" r="4.667" fill="#FFF"/>
+        </g>
+        <path stroke="#64808C" stroke-linecap="round" d="M43.8 47.4h5.6M43.8 51.133h10.267M52.2 47.4h5.6M55.933 51.133H60.6"/>
+        <g>
+            <path fill="#EB8181" d="M39.6 32h43.867v8.4H39.6z"/>
+            <path stroke="#64808C" d="M40.067 32.467H83v7.467H40.067z"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>pin with cart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#51C5EC" offset="0%"></stop>
+            <stop stop-color="#214193" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="mster-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pin-with-cart">
+            <rect id="Rectangle" x="0" y="0" width="50" height="50"></rect>
+            <g id="Group-2" transform="translate(12.500000, 5.000000)">
+                <g id="path" fill="url(#linearGradient-1)" stroke="#3DA6DC" stroke-width="1.25">
+                    <path d="M22.4045143,3.74851158 C17.2780103,-1.24950386 8.97235429,-1.24950386 3.84487803,3.74851158 C-1.28162601,8.74368347 -1.28162601,16.8487527 3.84487803,21.8429767 C3.84487803,21.8429767 12.0931732,29.7290925 13.0323355,39.2132841 C13.0887241,39.7857858 13.1188629,39.4161241 13.1188629,40 C13.1188629,39.4151763 13.1480294,39.7838901 13.2063625,39.2094927 C14.1474692,29.7271968 22.4035421,21.8429767 22.4035421,21.8429767 C27.5319906,16.8487527 27.5319906,8.74368347 22.4045143,3.74851158 Z" id="Shape"></path>
+                </g>
+                <g id="Group" transform="translate(6.250000, 7.500000)">
+                    <rect id="Rectangle-15" x="0" y="0" width="13.75" height="13.75"></rect>
+                    <g id="Group-10" transform="translate(1.250000, 1.250000)">
+                        <polyline id="Combined-Shape" fill="#FFFFFF" points="1.96858278 1.45329861 11.1678717 1.45329861 9.67930607 6.27452393 3.41471779 6.27452393"></polyline>
+                        <polyline id="Path-2" stroke="#FFFFFF" stroke-width="1.1016" points="0 0.0589118829 1.35540854 0.0589118829 3.7111329 7.51764634 9.44919735 7.51764634"></polyline>
+                        <ellipse id="Oval-3" fill="#FFFFFF" cx="4.5277404" cy="9.79670409" rx="1" ry="1.03593534"></ellipse>
+                        <ellipse id="Oval-3-Copy" fill="#FFFFFF" cx="8.85862251" cy="9.79670409" rx="1" ry="1.03593534"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

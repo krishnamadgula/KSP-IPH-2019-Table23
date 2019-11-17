@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>STORE_INACTIVE</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mster-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STORE_INACTIVE">
+            <g id="Group">
+                <g id="bank">
+                    <g id="master">
+                        <rect id="Rectangle" x="0" y="0" width="30" height="30"></rect>
+                    </g>
+                </g>
+                <g id="Group-50" transform="translate(4.000000, 3.000000)">
+                    <rect id="Rectangle-2" stroke="#80959D" x="4.42307692" y="0" width="13" height="2"></rect>
+                    <polyline id="Rectangle-6" stroke="#80959D" points="0 10.6071429 2.65384615 4.35714286 2.65384615 4.35714286 20.3461538 4.35714286 23 10.6071429"></polyline>
+                    <rect id="Rectangle-11" stroke="#80959D" x="0" y="10.6071429" width="23" height="1.78571429"></rect>
+                    <polyline id="Rectangle-11-Copy" stroke="#80959D" points="21.2307692 12.3928571 21.2307692 24 1.76923077 24 1.76923077 12.3928571 1.76923077 12.3928571"></polyline>
+                    <rect id="Rectangle-12" stroke="#80959D" x="3.53846154" y="15.9642857" width="5.30769231" height="8.03571429"></rect>
+                    <path d="M6.8611619,20.5799521 C7.22758159,20.5799521 7.52462344,20.2801428 7.52462344,19.9103093 C7.52462344,19.5404757 7.22758159,19.2406664 6.8611619,19.2406664 C6.49474221,19.2406664 6.19770036,19.5404757 6.19770036,19.9103093 C6.19770036,20.2801428 6.49474221,20.5799521 6.8611619,20.5799521 Z" id="Oval-11" fill="#80959D"></path>
+                    <rect id="Rectangle-14" stroke="#80959D" x="10.6153846" y="15.9642857" width="7.96153846" height="5.35714286"></rect>
+                    <path d="M6.20881342,3.01785714 L6.20881342,3.91071429" id="Line-10" stroke="#80959D" stroke-linecap="square"></path>
+                    <path d="M15.9395827,3.01785714 L15.9395827,3.91071429" id="Line-10-Copy" stroke="#80959D" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

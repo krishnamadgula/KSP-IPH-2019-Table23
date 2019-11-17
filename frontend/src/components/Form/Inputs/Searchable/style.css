@@ -1,0 +1,141 @@
+.Searchable .select-field-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.Searchable .select-field-dropdown-container {
+    position: relative;
+}
+
+.Searchable .select-field-dropdown {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    max-height: 200px;
+    overflow-x: auto;
+    z-index: 2;
+    background-color: #fff;
+    font-size: 12px;
+    border-radius: 2px;
+    border: 1px solid #e2e2e2;
+    border-top: 0;
+    padding: 4px;
+}
+.Searchable .input input[type="text"]{
+    padding-left: 15px;
+    padding-right: 45px;
+}
+.Searchable .select-field-dropdown:empty {
+    display: none;
+}
+
+.Searchable .select-field-dropdown .select-option {
+    display: flex;
+    padding: 4px 12px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+    color:#645f5f
+}
+
+.Searchable .select-field-dropdown .select-option:hover{
+    color: #20c05c;
+}
+
+.Searchable .select-field-dropdown .select-option.unselectable {
+    cursor: initial;
+}
+
+.Searchable .add-button {
+    margin-left: auto;
+    background-color: #20c05c;
+    color: white;
+    border-radius: 2px;
+}
+
+.Searchable.creating {
+    position: relative;
+    pointer-events: none;
+}
+
+.Searchable.creating::after,
+.Searchable.creating .select-field-dropdown::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.Searchable .loader {
+    padding: 0;
+    margin: 0 0 0 auto; 
+}
+
+.Searchable .tag-value-label {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    cursor: default;
+    line-height: 1em;
+}
+
+.Searchable .tag-value {
+    cursor: grab;
+    border-radius: 2px;
+    background-color: #80959d;
+    display: inline-flex;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    text-align: left;
+    padding: 4px 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.Searchable .tag-value-icon {
+    background-image: url(./cross.svg);
+    background-size: 100%;
+    margin-left: 10px;
+    height: 10px;
+    width: 10px;
+    padding: 0;
+    background-color: inherit;
+    min-width: 2px;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.Searchable .tag-values.draggable-values span {
+    cursor: grab;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.sortableHelper {
+    z-index: 100;
+    border-radius: 2px;
+    background-color: #80959d;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    text-align: left;
+    padding: 4px 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    height: 30px;
+}

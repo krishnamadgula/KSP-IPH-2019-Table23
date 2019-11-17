@@ -1,0 +1,45 @@
+.Send {
+  display: flex;
+  justify-content: start;
+  font-size: 0.875rem;
+  letter-spacing: -0.2px;
+}
+.Send .name-part {
+  display: flex;
+  justify-content: start;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #eaefef;
+  min-width: 155px;
+  padding: 10px;
+  font-weight: 600;
+}
+.Send .name {
+  padding: 0 10px;
+}
+.Send .icon {
+  width: 20px;
+}
+.Send .to {
+  padding: 10px;
+}
+.Send .value-part {
+  display: flex;
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #eaefef;
+}
+.Send .value-part .delete {
+  background-image: url('./delete.svg');
+  width: 16px;
+  height: 16px;
+  background-color: #80959d;
+  background-position: center;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.Send .value-part .value {
+  flex: 1;
+}

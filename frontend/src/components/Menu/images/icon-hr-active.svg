@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>search copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Marketing_Coupons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-31.000000, -649.000000)">
+        <g id="menu_catalogue">
+            <g id="search-copy-2" transform="translate(30.000000, 648.000000)">
+                <g id="master">
+                    <rect id="Rectangle" x="0" y="0" width="30" height="30"></rect>
+                </g>
+                <g id="search" transform="translate(2.000000, 2.000000)">
+                    <g id="Group-40">
+                        <path d="M25.4791667,25.4791667 L16.5,17.5" id="Path-29" stroke="#20C05C" stroke-width="1.09090909"></path>
+                        <g id="Group-47-Copy">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" stroke="#20C05C" xlink:href="#path-1"></use>
+                            <path d="M5,3 L5,3.92656308 C5,5.41066451 5.56548278,6.50786995 6.51933964,7.21849523 C7.45137417,7.91269717 8.69556279,6.98617056 9.9995256,6.98617056 C11.3038047,6.98617056 12.5489421,7.91269717 13.4800278,7.21849523 C14.4335684,6.50818578 15,5.40940118 15,3.92656308 L15,3 L5,3 Z M7.22303046,12.2269822 C7.22303046,13.7575112 8.46690281,15 9.99920934,15 C11.5321484,15 12.7760207,13.7575112 12.7760207,12.2269822 C12.7760207,10.6964533 11.5321484,9.45428029 9.99920934,9.45428029 C8.46690281,9.45428029 7.22303046,10.6964533 7.22303046,12.2269822 Z" id="Shape" stroke="#20C05C" mask="url(#mask-2)" transform="translate(10.000000, 9.000000) rotate(-180.000000) translate(-10.000000, -9.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

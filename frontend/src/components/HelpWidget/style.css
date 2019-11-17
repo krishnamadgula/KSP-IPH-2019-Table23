@@ -1,0 +1,21 @@
+.helpWidget h2 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.56;
+    letter-spacing: -0.3px;
+}
+
+.helpWidget .scrollItems {
+    margin: 0 -30px;
+    padding: 0 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    font-size: 0;
+}
+
+@media screen and (min-width: 928px) {
+  .helpWidget .helpCard {
+    width: calc(33.34% - 20px);
+    min-width: 276px;
+  }
+}

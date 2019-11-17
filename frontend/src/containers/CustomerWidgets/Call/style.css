@@ -1,0 +1,19 @@
+.CustomerCallWidget {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CustomerCallWidget .call-icon {
+  background-image: url('./icon.svg');
+  height: 18px;
+  width: 18px;
+  background-size: fit;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.CustomerCallWidget .DropDown .dropdown-items {
+    width: max-content;
+}

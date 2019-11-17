@@ -1,0 +1,161 @@
+.designations-page .editPopup .form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.designation-form .form-actions input[type=submit] {
+  max-width: 110px;
+}
+
+.designations-page .table .designation-name span{
+  cursor: pointer;
+}
+
+.designations-page .table .designation-name span:hover {
+  color: #20c05c;
+}
+
+.designation-form .form-actions.add, 
+.designation-form .form-actions.edit{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  position: relative;
+}
+
+.designation-form .form-actions .button {
+  min-width: 110px;
+}
+
+.designation-form input[type='submit'] {
+  max-width: 110px;
+  margin-left: 10px;
+}
+
+.designation-form .delete-button img{
+  margin-right: 5px;
+  color: #eb8181;
+}
+
+.designation-form .delete-button span{
+  margin-top: 2px;
+}
+.designations-page .designation-timing-not-mobile{
+  display: block;
+}
+.designations-page .designation-timing{
+  display: none;
+}
+.designations-page .only-mobile{
+  display: none;
+}
+
+.designations-page .table-row:last-child {
+  display: none !important;
+}
+
+@media screen and (max-width: 580px){
+
+  .designations-page .table-container {
+    overflow-x: unset
+  }
+
+  .designations-page .table {
+    display: block;
+    min-width: 320px;
+  }
+
+  .designations-page .table .table-header {
+    display: none;
+  }
+
+  .designations-page .table-container {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .designations-page .table .table-row .table-cell {
+    border:none;
+    padding: 15px;
+  }
+
+  .designations-page .table .table-row .table-cell div, .designations-page .table .table-row .table-cell small {
+    font-size: 13px;
+  }
+  .designations-page .designation-timing-not-mobile{
+    display: none;
+  }
+  .designations-page .designation-timing{
+    display: block;
+  }
+  .designations-page .only-mobile{
+    display: block;
+  }
+  .designations-page .table .designation-timing p, .designations-page .table .designation-manager p{
+    color: #2b3238;
+    margin-top: 2px;
+    margin-bottom: 15px;
+  }
+
+  .designations-page .table .designation-name span{
+    font-size: 0.875rem;
+    color: #2b3238;
+    font-weight: 600;
+  }
+
+  .designations-page .table .table-row .table-cell:nth-child(2), .designations-page .table .table-row .table-cell:nth-child(3) {
+    border-top: 1px solid #eaefef;
+    background-color: #fcfcfc;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+
+  .designations-page .table .table-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    border:1px solid #eaefef;
+    background: #ffffff;
+    margin:15px 0;
+  }
+
+  .designations-page .table .table-row .text-muted{
+    font-size: 11px;
+  }
+
+  .designations-page .table .table-row .designation-actions{
+    grid-row-start: 1;
+    grid-column-start: 2;
+  }
+  .designations-page .table .table-row .designation-manager{
+    grid-row-start: 2;
+    grid-column-start: 2;
+  }
+  .designations-page .primary.button {
+    overflow: hidden;
+    width: 46px;
+  }
+  .designations-page .search-button {
+    background-position: center;
+  }
+  .designations-page .table div.dropdown-item  {
+    font-size: 13px;
+  }
+  .designations-page .designation-filters .primary, .designations-page .designation-filters .button{
+    width: 48%;
+  }
+  .designation-form .form-actions.edit {
+    margin-bottom: 50px;
+  }
+  .designation-form .delete-button{
+    left: 40%;
+    top: 50px;
+  }
+  .designation-form .form-actions .button, .designation-form .form-actions .primary {
+    min-width: 48%;
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  .designations-page .table .table-row {max-width: 270px;}
+}

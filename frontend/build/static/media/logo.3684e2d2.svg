@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>SmartStore_logo_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SmartStore_logo_icon">
+            <g id="Group-2">
+                <rect id="Rectangle" x="0" y="0" width="42" height="42"></rect>
+                <g id="Artboard-Copy" transform="translate(7.000000, 1.000000)" fill-rule="nonzero">
+                    <polygon id="Path-2" fill="#20C05C" transform="translate(9.578205, 21.728447) rotate(180.000000) translate(-9.578205, -21.728447) " points="18.1550213 23.02269 5.25856048 14.6877004 1.00138862 17.6136117 18.1274792 28.7691933"></polygon>
+                    <polygon id="Combined-Shape" fill="#20C05C" transform="translate(13.994800, 32.959254) rotate(180.000000) translate(-13.994800, -32.959254) " points="14.1294274 31.644223 5.56624624 37.2098013 0.976458581 34.2376232 14.116681 25.9346156 14.116681 25.9185071 14.1292836 25.9266523 14.142174 25.9185071 14.142174 25.9349834 27.0131417 34.2534967 26.9855997 40"></polygon>
+                    <g id="Group" transform="translate(13.575269, 13.585425) rotate(180.000000) translate(-13.575269, -13.585425) translate(0.075269, 0.585425)" fill="#FFFFFF">
+                        <polygon id="Path-2" transform="translate(8.653474, 7.101751) rotate(180.000000) translate(-8.653474, -7.101751) " points="17.2302901 8.39599405 4.33382928 0.0610044943 0.0766574409 2.98691584 17.202748 14.1424974"></polygon>
+                        <polygon id="Combined-Shape" transform="translate(13.070069, 18.332558) rotate(180.000000) translate(-13.070069, -18.332558) " points="13.2046963 17.0175271 4.64151503 22.5831054 0.0517273978 19.6109273 13.1919498 11.3079197 13.1919498 11.2918112 13.2045524 11.2999564 13.2174428 11.2918112 13.2174428 11.3082874 26.0884105 19.6268008 26.0608685 25.3733041"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

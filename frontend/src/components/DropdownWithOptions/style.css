@@ -1,0 +1,27 @@
+.DropdownWithOptions {
+    display: inline-flex;
+    width: 100%;
+}
+.DropdownWithOptions button {
+    border-radius: 2px;
+    background-color: #80959d;
+    margin-right: 10px;
+    width: auto;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
+    letter-spacing: -0.1px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.DropdownWithOptions span {
+    background-image: url(./close.svg);
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.DropdownWithOptions button:focus {
+    border-color: inherit;
+}

@@ -1,0 +1,47 @@
+.PublicLanguageSelector .DropDown .dropdown-item:hover {
+    font-weight: normal;
+}
+
+.PublicLanguageSelector .DropDown {
+    padding: 1px;
+}
+
+.PublicLanguageSelector .dropdown-toggle:before {
+    content: "";
+    height: 100%;
+    width: 30px;
+    background-image: url(./i-globe.svg);
+    position: absolute;
+    transform: translateX(-100%);
+}
+
+.PublicLanguageSelector .DropDown .dropdown-toggle {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.PublicLanguageSelector img {
+    margin: 5px;
+}
+
+.PublicLanguageSelector .DropDown .dropdown-menu {
+    box-shadow: 0 2px 20px 0 rgba(190, 190, 190, 0.5);
+    margin-top: 5px;
+}
+
+.PublicLanguageSelector .DropDown .dropdown-items {
+    min-width: 139px;
+}
+
+.PublicLanguageSelector .DropDown .dropdown-items ul {
+    padding-left: 0
+}
+
+.PublicLanguageSelector .DropDown .dropdown-item {
+    color: #80959d;
+}
+
+.PublicLanguageSelector .DropDown .dropdown-item.selected {
+    color: #2b3238;
+    font-weight: 600;
+}

@@ -1,0 +1,275 @@
+.user-shifts-page .table .table-cell{
+    font-size: .75rem;
+    letter-spacing: -0.1px;
+}
+
+.user-shifts-page .table .table-header .table-cell {
+  color:#80959d;
+  font-weight: 600;
+}
+
+.user-shifts-page .table .table-header .table-cell:first-child {
+  padding:0 75px;
+}
+
+.user-shifts-page .table .table-cell:last-child {
+  max-width: 90px;
+}
+
+.user-shifts-page .column-user-name {
+  display: flex;
+}
+
+.user-shifts-page .user-name {
+  padding-right: 10px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.user-shifts-page .table .user-off-days {
+  padding-left: 2rem;
+  min-width: 115px;
+}
+
+.user-shifts-page .table .user-timings {
+  padding-left: 2rem;
+  min-width: 150px;
+}
+
+.user-shifts-page .table .user-attendance {
+  max-width:105px;
+}
+
+.user-shifts-page .user-details {
+  padding: 10px;
+}
+
+.user-shifts-page .editPopup {
+  max-width: 1000px;
+}
+
+.user-shifts-page .user-name {
+  cursor: pointer;
+}
+
+.user-shifts-page .user-name:hover {
+  color: #20c05c;
+}
+
+.user-shifts-page .table .table-cell .attendance-timing, .user-shifts-page .table .table-cell .store-affiliation-count {
+  margin-top:10px;
+  position: relative;
+}
+
+.user-shifts-page .table .table-cell .weekly-off-days, .user-shifts-page .table .table-cell .timings {
+  position: relative;
+}
+
+.user-shifts-page .table .table-cell .weekly-off-days::before, .user-shifts-page .table .table-cell .attendance-timing::before, .user-shifts-page .table .table-cell .store-affiliation-count::before, .user-shifts-page .table .table-cell .timings::before {
+  content: '';
+  position: absolute;
+  left: -24px;
+  height: 16px;
+  width: 16px;
+}
+
+.user-shifts-page .table .table-cell .store-affiliation-count::before {
+  background-image: url('./store-ops-inactive.svg');
+}
+.user-shifts-page .table .table-cell .attendance-timing::before {
+  background-image: url('./check-in.svg')
+}
+.user-shifts-page .table .table-cell .weekly-off-days::before {
+  background-image: url('./weekly-off.svg')
+}
+.user-shifts-page .table .table-cell .timings::before {
+  background-image: url('./clock.svg')
+}
+
+
+.user-shifts-page .user-attendance .text-muted {
+  font-size: 0.75rem;
+  display: none;
+}
+
+.user-shifts-page .table-container {
+  overflow-x: auto;
+}
+
+.user-shifts-page .table .table-row .table-cell small, .user-shifts-page .table .table-row .table-cell div {
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width: 768px) {
+
+
+  .user-shifts-page .table-container {
+    overflow-x: unset
+  }
+
+  .user-shifts-page h1.title {
+    font-size: 1.2rem;
+  }
+
+  .user-shifts-page .user-name {
+    min-width: 150px;
+  }
+
+  .user-shifts-page .search-button {
+    background-position: center;
+  }
+  .user-shifts-page .primary.button {
+    width: 40px;
+    overflow: hidden;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+
+  .user-shifts-page .table {
+    display: block;
+    min-width: 320px;
+  }
+
+  .user-shifts-page .table .table-header {
+    display: none;
+  }
+
+  .user-shifts-page .table-container {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .user-shifts-page .table .table-row .table-cell {
+    border:none;
+  }
+
+  .user-shifts-page .table .table-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    border:1px solid #eaefef;
+    background: #ffffff;
+    margin:15px 0;
+  }
+
+  .user-shifts-page .table .user-timings {
+      grid-row-start: 1;
+      grid-column-start: 2;
+  }
+
+  .user-shifts-page .table .user-off-days {
+    margin-left: 15px;
+    min-height: 90px;
+  }
+
+  .user-shifts-page .table .table-cell:last-child {
+      position: absolute;
+      top: 10px;
+      right: 0px;
+  }
+
+  .user-shifts-page .table .user-off-days .store-affiliation-count {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+  }
+  
+  .user-shifts-page .table .user-timings .timings {
+    position: absolute;
+    bottom: 25px;
+    left: 43px;
+  }
+
+  .user-shifts-page .table .user-off-days .weekly-off-days {
+    position: absolute;
+    top: 95px;
+    left: 45px;
+  }
+
+  .user-shifts-page .table .user-attendance button {
+    position: absolute;
+    bottom: 12px;
+    right:22px;
+  }
+  .user-shifts-page .table .user-timings .attendance-timing {
+    position: absolute;
+    top: 85px;
+    right:22px;
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .user-shifts-page .table .user-attendance {
+    max-width: 100%;
+  }
+
+  .user-shifts-page .table-container {
+    margin: 0 -30px;
+    padding: 0px 15px 0 15px;
+    border-top: 1px solid #eaefef;    
+  }
+
+  .user-shifts-page .filters-wrapper {
+    margin: 0 -30px;
+    padding: 10px 15px 15px;
+  }
+
+  .user-shifts-form .flex .field {
+    margin-right: 0px;
+  }
+
+  .user-shifts-page .table  .table-cell.user-attendance, .user-shifts-page .table  .table-cell.user-off-days {
+    background-color: #fcfcfc;
+    border-top: 1px solid #eaefef;
+  } 
+  .user-shifts-page .table .table-cell {
+    margin-left: 0px;
+    padding: 10px 12px;
+  }
+  .user-shifts-page .table .user-off-days {
+    min-height: 80px;
+  }
+  .user-shifts-page .table .table-row {
+    overflow: hidden;
+  }
+
+  .user-shifts-page .table .user-off-days .weekly-off-days {
+    max-width: 115px;
+  }
+  .user-shifts-page .table .table-row .table-cell.column-user-name .user-details .user-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+  .user-shifts-page .table .user-attendance button {
+    right: 22px;
+}
+.user-shifts-page .table .user-timings .timings {
+  top: 120px;
+}
+.user-shifts-page .table .table-row .DropDown .dropdown-menu .dropdown-items .dropdown-item{
+  font-size: .8125rem;
+}
+.user-shifts-page .table .table-cell .attendance-timing {
+  margin-top: 0px;
+}
+.user-shifts-page .table .user-off-days .weekly-off-days {
+  top: 85px;
+}
+.user-shifts-page .table .user-timings .timings {
+  top: 110px;
+}
+
+.user-shifts-page .table .table-cell:last-child {
+  margin-right: 5px;
+}
+.user-shifts-page .user-details {
+  padding-top: 7px;
+}
+.user-shifts-page .table-cell.user-attendance .primary.button {
+  font-size: 12px;
+}
+  
+}

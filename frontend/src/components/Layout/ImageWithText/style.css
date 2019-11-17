@@ -1,0 +1,64 @@
+.ImageWithText.bottom img {
+    width: 100%;
+}
+.ImageWithText h2 {
+    margin-bottom: 5px;
+}
+.ImageWithText p {
+    margin-top: 0;
+    color: #80959d;
+}
+.ImageWithText figure {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.ImageWithText.right img, .ImageWithText.left img {
+    width: 50%;
+}
+.ImageWithText.right figcaption {
+    float: right;
+    width: 50%;
+    padding-left: 15px;
+    padding-top: 7%;
+}
+.ImageWithText.left figcaption {
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+    padding-top: 7%;
+
+}
+.ImageWithText.top figure {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ImageWithText.top figcaption {
+    order: 1;
+}
+.ImageWithText.top img {
+    order: 2;
+    width: 100%;
+}
+.ImageWithText.top h2 {
+    margin-top: 0;
+}
+
+
+@media screen and (max-width: 767px) {
+    .ImageWithText.left h2, .ImageWithText.right h2 {
+        margin-top:0;
+    }
+    .ImageWithText.right img, .ImageWithText.left img {
+        width: 50%;
+    }
+    .ImageWithText.right figcaption {
+        padding-top: 0;
+        width: 50%;
+        float: right;
+    }
+    .ImageWithText.left figcaption {
+        padding-top: 0;
+        float: left;
+    }
+}

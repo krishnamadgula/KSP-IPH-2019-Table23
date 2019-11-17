@@ -1,0 +1,14 @@
+.MultiLevelCheckbox .checkbox-level {
+  margin-left: 28px;
+}
+
+.MultiLevelCheckbox .Checkbox {
+  margin: 8px 0;
+  display: inline-block;
+  user-select: none;
+}
+
+.MultiLevelCheckbox input,
+.MultiLevelCheckbox label {
+  cursor: pointer;
+}

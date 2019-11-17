@@ -1,0 +1,8 @@
+.roles-page .role-name {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.roles-page span:hover {
+  color: #20c05c;
+}

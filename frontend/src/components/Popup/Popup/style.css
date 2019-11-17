@@ -1,0 +1,119 @@
+.modal-backdrop {
+    background:  rgba(43,50,56,0.6);
+    position: fixed !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    overflow: auto;
+    display: flex;
+}
+.editPopup {
+    max-width: 500px;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+    transform: translate3d(0, -50%, 0);
+    max-height: 100vh;
+}
+.editPopup .header {
+    height: 48px;
+    background-color: #2b3238;
+    color: #ffffff;
+    padding-left: 25px;
+    width: 100%;
+    position: relative;
+}
+.editPopup h1 {
+    margin: 0;
+    line-height: 48px;
+    font-size: 1.125rem;
+    letter-spacing: -0.3px;
+}
+.editPopup .details {
+    padding: 25px;
+}
+.editPopup input {
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+}
+.editPopup label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #80959d;
+    letter-spacing: -0.2px;
+}
+.editPopup .details {
+    background-color: #ffffff;
+}
+.editPopup .details > * {
+    padding-bottom: 20px;
+}
+.editPopup .details:last-child {
+    padding-bottom: 0;
+}
+/* .editPopup button {
+    min-width: 100px;
+    width: fit-content;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #f3f5f6;
+    font-size: 0.875rem;
+} */
+.editPopup button.primary {
+    float: right;
+}
+
+/* TODO: Avoid usage of '*' selector */
+.editPopup .actions > * {
+    margin-right: 10px;
+}
+.editPopup .close {
+    min-width: initial;
+    width: 16px;
+    height: 32px;
+    margin: 8px 0;
+    padding: 0;
+    background-color: inherit;
+    background-image: url(./close.svg);
+    background-position: center;
+    position: absolute;
+    right: 16px;
+    top: 0;
+}
+.editPopup .actions button:last-child {
+    margin-right: 0px;
+}
+
+.editPopup .delete-button {
+    font-weight: 600;
+    color: #eb8181;
+    float: left;
+    font-size: 0.875rem;
+    left: -6px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    line-height: 2.5;
+  }
+@media screen and (max-width:767px) {
+    .editPopup button {
+        min-width: 60px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .editPopup .details {
+        margin-bottom: 20px;
+    }
+    .editPopup{
+        top:10%;
+        max-height: 10vh;
+    }
+}

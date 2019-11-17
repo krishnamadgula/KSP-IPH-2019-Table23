@@ -1,0 +1,31 @@
+.InfoCard {
+    width: 100%;
+    border-radius: 4px;
+    background-color: #fbfcfc;
+    height: 84px;
+    display: inline-flex;
+}
+.InfoCard img {
+    height: 30px;
+    width: 30px;
+}
+.InfoCard .image {
+    line-height: 75px;
+    padding-left: 30px;
+    background-color: #fbfcfc;
+}
+.InfoCard .infocard-details {
+    padding-left: 24px;
+}
+
+.InfoCard .title {
+    padding-top: 24px;
+    letter-spacing: -0.1px;
+    font-size: 0.75rem;
+    color: #80959d;
+}
+.InfoCard .description {
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    font-size: 0.875rem;
+}

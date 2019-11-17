@@ -1,0 +1,76 @@
+.language-selector {
+  height: 40px;
+  position: absolute;
+  top: 79px;
+  left: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 27px;
+  width: calc(100% - 90px);
+  background-color: #7bd49d;
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.8rem;
+  padding-left: 30px;
+  max-width: 240px;
+}
+.language-selector .DropDown .dropdown-item.selected:after {
+  content: "";
+  margin-top: 5px;
+  right: 5px;
+  background-image: url(./tick-icon.svg);
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  margin-right: 20px;
+}
+.language-selector .DropDown {
+  position: static;
+}
+.language-selector .DropDown .dropdown-menu {
+  top: 0;
+  left: 0;
+  right: unset;
+  width: 100%;
+  border-radius: 0;
+  box-shadow:  -8px 8px 13px 0 rgba(0, 0, 0, 0.1);
+  padding: 15px 20px ;
+  z-index: 4;
+  overflow:auto;
+  max-height: 95vh;
+}
+.language-selector .DropDown .dropdown-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1px;
+  background-color: #eaefef;
+  padding: 0;
+}
+.language-selector .DropDown .dropdown-item {
+  margin-bottom: 0;
+  padding: 15px 9px;
+  background-color: #fff;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.language-selector .DropDown .dropdown-item.selected {
+  font-weight: bold;
+}
+.language-selector .DropDown .dropdown-item:first-child {
+  padding-top: 0;
+}
+.language-selector .DropDown .dropdown-item:last-child {
+  padding-bottom: 0;
+}
+.language-selector .DropDown .dropdown-item:hover {
+  box-shadow: none;
+  position: static;
+}
+.language-selector .DropDown .dropdown-toggle {
+  position: absolute;
+  left: 10px;
+  padding-left: 87%;
+}
+.language-selector .selected-language {
+  white-space: nowrap;
+}

@@ -1,0 +1,23 @@
+.CustomerSmsWidget {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .CustomerSmsWidget .sms-icon {
+    background-image: url('./icon.svg');
+    height: 26px;
+    width: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  
+  .CustomerSmsWidget .action-button img {
+      height: 19px;
+  }
+
+  .CustomerSmsWidget .DropDown .dropdown-items {
+    width: max-content;
+  }
+  

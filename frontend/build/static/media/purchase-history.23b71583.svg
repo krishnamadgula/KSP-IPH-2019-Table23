@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>purchase history</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="169.961462%" y1="-324.053889%" x2="38.5316377%" y2="125.542689%" id="linearGradient-1">
+            <stop stop-color="#44C0FF" offset="0%"></stop>
+            <stop stop-color="#B9F9F0" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="resized-illustrations_version-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="purchase-history">
+            <g>
+                <g id="Group-3">
+                    <rect id="Rectangle-4" x="0" y="0" width="300" height="300"></rect>
+                    <g id="Group-2" transform="translate(1.000000, 40.000000)" fill="url(#linearGradient-1)">
+                        <path d="M264.254584,111.741573 C263.589504,172.19705 214.411011,221 153.842324,221 C92.8595457,221 43.4232365,171.527465 43.4232365,110.5 C43.4232365,105.447329 43.7621099,100.473863 44.4183532,95.6011236 L9.93258427,95.6011236 C4.44696945,95.6011236 6.71794063e-16,91.1541541 0,85.6685393 C-6.71794063e-16,80.1829245 4.44696945,75.7359551 9.93258427,75.7359551 L48.9985591,75.7359551 L88.0798639,75.7359551 C93.5654787,75.7359551 98.0124481,71.2889856 98.0124481,65.8033708 C98.0124481,61.5361533 95.3215139,57.8974372 91.543996,56.491573 C90.4654202,56.8929824 89.2982612,57.1123596 88.0798639,57.1123596 L42.1898457,57.1123596 C36.7042309,57.1123596 32.2572614,52.6653901 32.2572614,47.1797753 C32.2572614,41.6941605 36.7042309,37.247191 42.1898457,37.247191 L71.1710885,37.247191 C91.4001989,14.4006708 120.940764,0 153.842324,0 C201.299058,0 241.763324,29.9602512 257.37869,72.011236 L289.067416,72.011236 C294.553031,72.011236 299,76.4582054 299,81.9438202 C299,87.429435 294.553031,91.8764045 289.067416,91.8764045 L262.699818,91.8764045 L240.69607,91.8764045 C235.210455,91.8764045 230.763485,96.3233739 230.763485,101.808989 C230.763485,107.294604 235.210455,111.741573 240.69607,111.741573 L264.254584,111.741573 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+                <g id="Group-26" transform="translate(88.000000, 120.000000)" stroke="#64808C">
+                    <polyline id="Path-36" fill="#FFFFFF" points="0.0630630631 14 0.0630630631 96.6983055 75.6183734 108.981305 75.6183734 25.7093483"></polyline>
+                    <polyline id="Path-37" fill="#FFFFFF" points="75.2882883 26.0867192 75.2882883 108.22791 124.800577 95.5908164 124.800577 13"></polyline>
+                    <polygon id="Path-31" fill="#FFFFFF" points="1 14 76.1310523 26.0879874 122.76409 12.8230844 47.6786362 0.555555556"></polygon>
+                    <polyline id="Path-39" stroke-width="1.5" points="112.900901 88.6338596 117.641203 88.6338596 117.641203 80.382716"></polyline>
+                </g>
+                <polygon id="Path-47" fill="#87D5FA" points="116 138.571429 116 167.142857 124 161 133 169 134 142 157 135 136 131"></polygon>
+                <polygon id="Rectangle-27" fill="#EB8181" points="98 176 119 180 119 201 98 197"></polygon>
+                <path d="M98.5,200.5 L118.5,204.504438" id="Line" stroke="#64808C" stroke-linecap="square"></path>
+                <path d="M98.5,204.5 L118.5,208.504438" id="Line-Copy" stroke="#64808C" stroke-linecap="square"></path>
+                <path d="M98.5,208.5 L111.638646,211.191348" id="Line-Copy-2" stroke="#64808C" stroke-linecap="square"></path>
+            </g>
+            <g id="Group-25" transform="translate(181.000000, 183.000000)">
+                <circle id="Oval-20" stroke="#64808C" fill="#FFFFFF" cx="22.5" cy="22.5" r="22.5"></circle>
+                <path d="M22.5,22.5 L36.9427796,35.6019726 C40.0851529,32.1400989 42,27.5436677 42,22.5 C42,11.7304474 33.2695526,3 22.5,3 L22.5,22.5 Z" id="Oval-20-Copy-3" fill="#D8D8D8"></path>
+                <circle id="Oval-20-Copy-2" stroke="#64808C" fill="#FFFFFF" cx="22.5" cy="22.5" r="19.5"></circle>
+                <circle id="Oval-20-Copy" stroke="#EB8181" stroke-dasharray="4,4,4" cx="23" cy="23" r="17"></circle>
+                <path d="M20.5,19.5 L34.5,33.5" id="Line-34" stroke="#64808C" stroke-linecap="square"></path>
+                <circle id="Oval-21" fill="#87D5FA" cx="23" cy="22" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+.tooltip {
+    visibility: hidden;
+    max-width: 520px;
+    background-color: #edf4f8;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tooltip::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #edf4f8 transparent transparent;
+}

@@ -1,0 +1,26 @@
+.multitext-tags .tag-value-label {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    cursor: default;
+}
+
+.multitext-tags .tag-value {
+    border-radius: 2px;
+    background-color: #80959d;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    text-align: left;
+    padding: 3px 4px 4px 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.multitext-tags .tag-value-icon {
+    padding-left: 10px;
+    background-color: inherit;
+    height: auto;
+    min-width: 2px;
+}

@@ -1,0 +1,70 @@
+/*.ButtonWithOptions .dropdown-items {
+  width: 200px;
+}
+
+.ButtonWithOptions .dropdown-item {
+  overflow-wrap: break-word;
+}*/
+
+.ButtonWithOptions .action-button {
+  height: 30px;
+  width: 36px;
+  color: #2b3238;
+  font-weight: normal;
+  font-size: 0.875rem;
+  vertical-align: top;
+  padding: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfcfc;
+}
+
+.ButtonWithOptions > * {
+  border: 1px solid #eaefef;
+}
+
+.ButtonWithOptions > :first-child {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.ButtonWithOptions > :last-child {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.ButtonWithOptions .DropDown {
+  border-left: 0;
+  height: 30px;
+  width: 24px;
+  position: relative;
+}
+
+.ButtonWithOptions .dropdown-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfcfc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.ButtonWithOptions .dropdown-item {
+  padding-left: 40px;
+}
+
+.ButtonWithOptions .dropdown-item.selected {
+  background-image: url(./tick.svg);
+  background-position: left 15px center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,29 @@
+.EditImageWithText .text {
+    padding-top: 20px;
+}
+@media screen and (min-width: 768px) {
+    .EditImageWithText form {
+        max-width: 100%;
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .EditImageWithText .file {
+        max-width: 290px;
+    }
+    .EditImageWithText .text {
+        float: right;
+        padding-top: 0;
+        width: 100%;
+        margin-left: 30px;
+    }
+    .EditImageWithText .text .input {
+        width: 100%;
+    }
+    .EditImageWithText .text .field {
+        margin-bottom: 20px;
+    }
+    .EditImageWithText .file  * {
+        height: 100%;
+    }
+}
